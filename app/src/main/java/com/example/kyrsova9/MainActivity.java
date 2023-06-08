@@ -97,7 +97,7 @@ String im9="Вася",fam="Васильев",ot="Васькович";
           long newRowId = db.insert("studenti", null, values);
 
       }
-
+ы
   */
       //select
 
