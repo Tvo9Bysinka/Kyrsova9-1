@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#D1E6CD">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Добавление Должности"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/b_dobavlenie_doljnosti"
+                android:layout_width="75dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:onClick="OnClick_perehod_k_dobav_doljnosti"
+                android:text="+"
+                app:backgroundTint="#D514AFA1" />
+
+            <Button
+                android:id="@+id/pokazat_doljnosti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                android:onClick="OnClick_Pokazat_Doljnosti_Prepodavatel9"
+                android:text="Показать"
+                android:textColor="#083E37"
+                app:backgroundTint="#77A6A2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#D1E6CD">
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Добавление Работника"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/b_dobavlenie_prepodavatel9"
+                android:layout_width="75dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:onClick="OnClick_perehod_k_dobav_prepodavatel9"
+                android:text="+"
+                app:backgroundTint="#D514AFA1" />
+
+            <Button
+                android:id="@+id/pokazat_prepodavatel9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                android:onClick="OnClick_Pokazat_Doljnosti_Prepodavatel9"
+                android:text="Показать"
+                android:textColor="#083E37"
+                app:backgroundTint="#77A6A2" />
+
+        </TableRow>
+
+        <ListView
+            android:id="@+id/dobavlenie_LV_doljnost_prepodavatel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#9796C18E"/>
+
+    </TableLayout>
+</LinearLayout>

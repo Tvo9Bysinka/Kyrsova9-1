@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kyrsova9">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Посещатор"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Kyrsova9">
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Kyrsova9.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FNGS">
+</activity>
+        <activity android:name=".Dobavlenie"
+            android:label="Добавление Ф|Н|Г|С">
+        </activity>
+        <activity android:name=".Dobavlenie_Prepodavatel9"
+            android:label="Добавление Работника">
+
+        </activity>
+        <activity android:name=".Dobavlenie_Predmeta"
+            android:label="Добавление Предмета">
+
+        </activity>
+        <activity android:name=".Dobavlenie_Jurnal"
+            android:label="Добавление Журнала">
+
+        </activity>
+        <activity android:name=".Smotret_Jurnal"
+            android:label="Журнал">
+
+        </activity>
+
+    </application>
+
+</manifest>

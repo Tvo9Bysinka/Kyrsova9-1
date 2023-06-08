@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="OnClick_Pokazat"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#D1E6CD">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Добавление Факультета"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/b_dobavlenie_faculteta"
+                android:layout_width="75dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:onClick="OnClick_perehod_k_dobav_faculteta"
+                android:text="+"
+                app:backgroundTint="#D514AFA1" />
+
+            <Button
+                android:id="@+id/pokazat_facultet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                android:onClick="OnClick_Pokazat"
+                android:text="Показать"
+                android:textColor="#083E37"
+                app:backgroundTint="#77A6A2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#D1E6CD">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Добавление Направления"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/b_dobavlenie_napravleni9"
+                android:layout_width="75dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="#F80000"
+                android:onClick="OnClick_perehod_k_dobav_napravleni9"
+                android:text="+"
+                app:backgroundTint="#D514AFA1" />
+
+            <Button
+                android:id="@+id/pokazat_napravleni9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="OnClick_Pokazat"
+                android:text="Показать"
+                android:textColor="#083E37"
+                app:backgroundTint="#77A6A2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#D1E6CD">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Добавление Группы"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/b_dobavlenie_groupi"
+                android:layout_width="75dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="#F80000"
+                android:onClick="OnClick_perehod_k_dobav_groupi"
+                android:text="+"
+                app:backgroundTint="#D514AFA1" />
+
+            <Button
+                android:id="@+id/pokazat_groupi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="OnClick_Pokazat"
+                android:text="Показать"
+                android:textColor="#083E37"
+                app:backgroundTint="#77A6A2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#D1E6CD">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Добавление Студента"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/b_dobavlenie_studenta"
+                android:layout_width="75dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="#F80000"
+                android:onClick="OnClick_perehod_k_dobav_studentov"
+                android:text="+"
+                app:backgroundTint="#D514AFA1" />
+
+            <Button
+                android:id="@+id/pokazat_studenta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                android:onClick="OnClick_Pokazat"
+                android:text="Показать"
+                android:textColor="#083E37"
+                app:backgroundTint="#77A6A2" />
+
+        </TableRow>
+
+        <ListView
+            android:id="@+id/dobavlenie_LV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#9796C18E"
+            android:cacheColorHint="#0C0000" />
+
+    </TableLayout>
+
+
+</LinearLayout>
